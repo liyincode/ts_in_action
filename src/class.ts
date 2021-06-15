@@ -22,11 +22,11 @@ class Dog extends Animal{
     }
 }
 
-console.log(Dog.prototype);
+// console.log(Dog.prototype);
 let dog = new Dog('wangwang');
-console.log(dog);
+// console.log(dog);
 // dog.pro();
-console.log(Dog.food);
+// console.log(Dog.food);
 
 
 // 继承
@@ -37,16 +37,16 @@ class Husky extends Dog{
        this.pro();
     }
 }
-console.log(Husky.prototype);
+// console.log(Husky.prototype);
 
 let husky = new Husky('chun', 'white');
-console.log(husky);
-console.log(Husky.food);
+// console.log(husky);
+// console.log(Husky.food);
 
 
 class Cat extends Animal {
     sleep() {
-        console.log('cat is sleeping');
+        // console.log('cat is sleeping');
     }
 }
 
@@ -54,7 +54,7 @@ let cat = new Cat();
 // 多态
 let animals: Animal[] = [dog, cat];
 animals.forEach(item => {
-    item.sleep();
+    // item.sleep();
 });
 
 class WorkFlow {
