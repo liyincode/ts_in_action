@@ -55,4 +55,25 @@ interface Names {
     // [z: number]: number; JavaScript 将 number 转为 string
     // 数字索引签名返回值的类型一定要是字符串返回的子类型
 }
-// 
+
+
+// let add: (x: number, y: number) => number;
+type Add = (x: number, y: number) => number;
+let add1: Add = (a, b) => a + b;
+
+interface Lib {
+    (): void;
+    version: string;
+    doSomething(): void;
+}
+
+function getLib() {
+    let lib: Lib = (() => {}) as Lib;
+    lib.version = '1.0';
+    lib.doSomething = () => {};
+    return lib;
+}
+let lib1 = getLib();
+lib1();
+lib1.doSomething();
+lib1.version;
