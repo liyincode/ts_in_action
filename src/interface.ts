@@ -11,7 +11,7 @@ interface Result {
 
 function render(result: Result) {
     result.data.forEach((value) => {
-        console.log(value.id, value.name);
+        // console.log(value.id, value.name);
     });
 }
 
@@ -59,7 +59,7 @@ interface Names {
 
 // let add: (x: number, y: number) => number;
 type Add = (x: number, y: number) => number;
-let add1: Add = (a, b) => a + b;
+// let add1: Add = (a, b) => a + b;
 
 interface Lib {
     (): void;
