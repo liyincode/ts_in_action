@@ -61,4 +61,4 @@ function getLanguage(type: Type, x: string | number) {
     return lang;
 }
 
-getLanguage(Type.Strong, 1);
+// getLanguage(Type.Strong, 1);
