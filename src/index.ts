@@ -7,5 +7,6 @@ import './class-interface';
 import './generics';
 import './interface1';
 import './advanced';
+import './guards';
 
 
