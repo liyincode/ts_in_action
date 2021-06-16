@@ -38,9 +38,9 @@ num = null;
 let noReturn = () => {}
 
 // any
-let x;
-x = 1;
-x = '2';
+// let x;
+// x = 1;
+// x = '2';
 
 // never
 let eror = () => {

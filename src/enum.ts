@@ -47,8 +47,8 @@ enum E { a, b };
 enum F { a = 0, b = 1};
 enum G { a = 'apple', b = 'banana'};
 
-let e: E = 3;
-let f: F = 3;
+// let e: E = 3;
+// let f: F = 3;
 // console.log(e === f);
 
 let e1: E.a = 3;

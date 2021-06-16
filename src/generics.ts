@@ -23,10 +23,10 @@ class Log<T> {
     }
 }
 
-let log1 = new Log<number>();
-log1.run(1);
-let log2 = new Log();
-log2.run('1');
+// let log1 = new Log<number>();
+// log1.run(1);
+// let log2 = new Log();
+// log2.run('1');
 
 // 泛型约束
 interface Length {
