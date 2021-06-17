@@ -9,6 +9,7 @@ import './interface1';
 import './advanced';
 import './advanced1';
 import './advanced2';
+import './advanced3';
 import './guards';
 
 
